@@ -136,7 +136,6 @@ color: var(--main-color);
   width: 100%;
   transition: 0.3s;
   padding: 20px;
-  z-index: 10000;
 
 }
 /* event js on click ul im mobile */
