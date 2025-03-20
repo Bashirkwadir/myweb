@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--start import library icons  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--end import library icons  -->
+
+  <title>Personal website</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="images/logo1.png">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <a class="logoo" href="/">
+        <img src="images/logo1.png" alt="" />
+      </a>
+      <nav>
+        <i id="icon-mobile" class="fa-solid fa-bars nav-tog"></i>
+        <ul id="ul-mobile">
+          <li><a class="active" href="/"> الرئيسية</a></li>
+          <li><a href="#Services">خدماتنا</a></li>
+          <li><a href="#">المدونة</a></li>
+          <li><a href="#portfolio">معرض الاعمال</a></li>
+          <li><a href="#"> اتصل بنا</a></li>
+        </ul>
+      </nav>
+      <div class="social">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+      </div>
+    </div>
+  </header>
+  <!-- Start hero section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-info">
+        <h1 class="hero-title">شركة عالم التطوير التقنية</h1>
+        <h2>شبكات - برمجة - صيانة</h2>
+        <p>
+          عالم التطوير <strong>"DevSphere" </strong>هي شركة متخصصة في تطوير
+          البرمجيات وحلول التكنولوجيا المبتكرة، تهدف إلى تقديم منتجات رقمية
+          عالية الجودة تلبي احتياجات الشركات والأفراد. تعتمد شركتنا على أحدث
+          التقنيات وأفضل الممارسات في تطوير البرمجيات لضمان توفير حلول مرنة،
+          آمنة، ومستدامة
+        </p>
+
+        <div class="social">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <div class="call">
+          <button>إتصل بنا</button>
+          <button>المزيد</button>
+        </div>
+      </div>
+
+      <div class="hero-img">
+        <img src="images/hero-img.png" alt="hero-img" />
+      </div>
+    </div>
+  </section>
+  <!-- End hero section -->
+
+  <!-- Start Services Section -->
+  <section id ="Services" class="services">
+    <div class="container">
+      <h2 class="section-title">خدماتنا الاحترافية</h2>
+      <p class="section-desc">
+        في عالم التطوير نقدم مجموعة متكاملة من الخدمات البرمجية والتقنية
+        المصممة لتلبية احتياجات عملائنا ومساعدتهم على تحقيق أهدافهم بكفاءة
+        وابتكار.
+      </p>
+
+      <div class="all-services">
+        <div class="service">
+          <img src="images/svg/angular-icon-1.svg" alt="img" />
+          <h3>Angular</h3>
+          <p>بناء تطبيقات ويب حديثة و ديناميكية وقابلة للتوسع.</p>
+        </div>
+        <div class="service">
+          <img src="images/svg/flutter.svg" alt="img" />
+          <h3>Flutter</h3>
+          <p>
+            بناء تطبيقات موبايل تعمل بالنظامين IOS , Android حديثة و ديناميكية
+            وقابلة للتوسع.
+          </p>
+        </div>
+        <div class="service">
+          <img src="images/svg/java-14.svg" alt="img" />
+          <h3>Java</h3>
+          <p>
+            جافا لغة برمجة قوية، متعددة الاستخدامات، وموجهة للكائنات. تستخدم
+            جافا في تطوير تطبيقات الويب، التطبيقات المحمولة (Android)
+            البرمجيات المكتبية، أنظمة قواعد البيانات
+          </p>
+        </div>
+        <div class="service">
+          <img src="images/svg/vue-vuejs-javascript-js-framework-svgrepo-com.svg" alt="img" />
+          <h3>Vuejs</h3>
+          <p>
+            Vue.js إطار عمل JavaScript لبناء واجهات المستخدم التفاعلية بسهولة
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Services Section -->
+
+  <!-- start about us Section -->
+  <section class="about-us">
+    <div class="container">
+      <div class="about-info">
+        <h2>حول الشركة</h2>
+        <p>
+          نحن في [اسم الشركة] شركة متخصصة في تطوير البرمجيات وحلول التكنولوجيا
+          المبتكرة. نقدم خدمات متكاملة تشمل تصميم وتطوير البرمجيات، تطبيقات
+          الويب والجوال، وحلول الذكاء الاصطناعي، لنساعد عملاءنا على تحقيق
+          التحول الرقمي وتعزيز أعمالهم. نحرص على تقديم حلول برمجية مبتكرة
+          وفعالة، مصممة خصيصًا لتلبية احتياجات العملاء في مختلف القطاعات، مع
+          التركيز على الجودة، الأمان، وقابلية التوسع. بفضل فريقنا المتمرس من
+          المطورين والمصممين وخبرتنا العميقة في التكنولوجيا الحديثة، نضمن
+          تقديم حلول تلبي تطلعات عملائنا وتساعدهم على التفوق في السوق الرقمي.
+          نعمل وفق أحدث المعايير والتقنيات لضمان تجربة مستخدم سلسة وأداء برمجي
+          عالي الجودة. كما نقدم خدمات دعم واستشارات تقنية مستمرة لضمان تحقيق
+          أقصى استفادة من حلولنا البرمجية.
+        </p>
+        <button class="about-call">للمزيد اضغط هنا</button>
+      </div>
+      <div class="about-img">
+        <img src="images/about-img.jpg" alt="about" />
+      </div>
+    </div>
+  </section>
+  <!-- End about us Section -->
+
+  <!-- start statistics section -->
+  <section class="statistics">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="stat">
+        <h3>1500</h3>
+        <p>عميل</p>
+      </div>
+      <div class="stat">
+        <h3>2000</h3>
+        <p>عميل</p>
+      </div>
+      <div class="stat">
+        <h3>3000</h3>
+        <p>عميل</p>
+      </div>
+      <div class="stat">
+        <h3>4000</h3>
+        <p>عميل</p>
+      </div>
+    </div>
+  </section>
+  <!-- End statistics section -->
+
+  <!-- start courses section -->
+  <section class="courses">
+    <div class="container">
+      <h2 class="section-title">الكورسات المتوفرة</h2>
+      <p class="section-desc">
+        في عالم التطوير نقدم مجموعة متكاملة من الخدمات البرمجية والتقنية
+        المصممة لتلبية احتياجات عملائنا ومساعدتهم على تحقيق أهدافهم بكفاءة
+        وابتكار.
+      </p>
+      <div class="all-courses">
+        <div class="course">
+          <div class="category">فرونت ايند</div>
+
+          <img src="images/courses/photoshop.jpg" alt="" />
+          <h2 class="course-title">دورة التصميم</h2>
+          <p>اخترف اساسيات برنامج فوتوشوب طريقك الى عالم التصميم</p>
+          <div class="course-price">
+            <div>
+              <span>السعر:</span>
+              <span>250$</span>
+            </div>
+            <span>150$</span>
+          </div>
+          <hr />
+          <div class="course-info">
+            <div>
+              <i class="fa-solid fa-users"></i>
+              <span>1200</span>
+            </div>
+            <div class="reviews">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <button class="course-details">تفاصيل الكورس</button>
+        </div>
+        <div class="course">
+          <div class="category">فرونت ايند</div>
+
+          <img src="images/courses/mysql.jpg" alt="" />
+          <h2 class="course-title">دورة التصميم</h2>
+          <p>اخترف اساسيات برنامج فوتوشوب طريقك الى عالم التصميم</p>
+          <div class="course-price">
+            <div>
+              <span>السعر:</span>
+              <span>250$</span>
+            </div>
+            <span>150$</span>
+          </div>
+          <hr />
+          <div class="course-info">
+            <div>
+              <i class="fa-solid fa-users"></i>
+              <span>1200</span>
+            </div>
+            <div class="reviews">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <button class="course-details">تفاصيل الكورس</button>
+        </div>
+        <div class="course">
+          <div class="category">فرونت ايند</div>
+
+          <img src="images/courses/php1.jpg" alt="" />
+          <h2 class="course-title">دورة التصميم</h2>
+          <p>اخترف اساسيات برنامج فوتوشوب طريقك الى عالم التصميم</p>
+          <div class="course-price">
+            <div>
+              <span>السعر:</span>
+              <span>250$</span>
+            </div>
+            <span>150$</span>
+          </div>
+          <hr />
+          <div class="course-info">
+            <div>
+              <i class="fa-solid fa-users"></i>
+              <span>1200</span>
+            </div>
+            <div class="reviews">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <button class="course-details">تفاصيل الكورس</button>
+        </div>
+        <div class="course">
+          <div class="category">فرونت ايند</div>
+
+          <img src="images/courses/python.jpg" alt="" />
+          <h2 class="course-title">دورة التصميم</h2>
+          <p>اخترف اساسيات برنامج فوتوشوب طريقك الى عالم التصميم</p>
+          <div class="course-price">
+            <div>
+              <span>السعر:</span>
+              <span>250$</span>
+            </div>
+            <span>150$</span>
+          </div>
+          <hr />
+          <div class="course-info">
+            <div>
+              <i class="fa-solid fa-users"></i>
+              <span>1200</span>
+            </div>
+            <div class="reviews">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <button class="course-details">تفاصيل الكورس</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End courses section -->
+
+  <!-- Start  PortFolio section -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2 class="section-title">رحلتي في عالم البرمجة</h2>
+      <p class="section-desc">
+        مطور برمجيات متخصص في أنظمة ERP وتطبيقات سطح المكتب أنا مطور برمجيات
+        متمرس أعمل على تطوير وتحسين أنظمة ERP، مع خبرة واسعة في C# وقواعد
+        البيانات SQL Server. لدي مهارات قوية في تطوير الواجهات الأمامية
+        باستخدام HTML, CSS, JavaScript، بالإضافة إلى خبرتي في برمجة تطبيقات
+        سطح المكتب باستخدام Windows Forms، مما يتيح لي بناء أنظمة متكاملة تجمع
+        بين الأداء القوي والتجربة السلسة للمستخدمين. أسعى دائمًا إلى تحسين
+        الكفاءة التشغيلية وتقديم حلول برمجية مبتكرة تلبي احتياجات الشركات
+        والمؤسسات.
+      </p>
+      <div class="portfolio-container">
+        <div class="box">
+          <img src="images/portfolio/img1.png" alt="" />
+          <div class="info">
+            <h3>Graphic Design</h3>
+            <p>Turkey-Istanbul</p>
+            <a href="#" class="project-link">رابط المشروع</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/portfolio/img1.png" alt="" />
+          <div class="info">
+            <h3>Graphic Design</h3>
+            <p>Turkey-Istanbul</p>
+            <a href="#" class="project-link">رابط المشروع</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/portfolio/img1.png" alt="" />
+          <div class="info">
+            <h3>Graphic Design</h3>
+            <p>Turkey-Istanbul</p>
+            <a href="#" class="project-link">رابط المشروع</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/portfolio/img1.png" alt="" />
+          <div class="info">
+            <h3>Graphic Design</h3>
+            <p>Turkey-Istanbul</p>
+            <a href="#" class="project-link">رابط المشروع</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/portfolio/img1.png" alt="" />
+          <div class="info">
+            <h3>Graphic Design</h3>
+            <p>Turkey-Istanbul</p>
+            <a href="#" class="project-link">رابط المشروع</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/portfolio/img1.png" alt="" />
+          <div class="info">
+            <h3>Graphic Design</h3>
+            <p>Turkey-Istanbul</p>
+            <a href="#" class="project-link">رابط المشروع</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/portfolio/img1.png" alt="" />
+          <div class="info">
+            <h3>Graphic Design</h3>
+            <p>Turkey-Istanbul</p>
+            <a href="#" class="project-link">رابط المشروع</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/portfolio/img1.png" alt="" />
+          <div class="info">
+            <h3>Graphic Design</h3>
+            <p>Turkey-Istanbul</p>
+            <a href="#" class="project-link">رابط المشروع</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End  PortFolio section -->
+  <!-- Start team section -->
+  <section class="our-team">
+    <div class="container">
+      <h2 class="section-title">فريق العمل</h2>
+      <p class="section-desc">لدينا فريق عمل متميز ذو خبرة عالية</p>
+
+      <div class="team-container">
+        <div class="team-box">
+          <div class="img-social">
+            <div class="social">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <img src="images/team/team1.jpg" alt="" />
+          </div>
+
+          <div class="team-info">
+            <h3>bashir</h3>
+            <p>Developer</p>
+          </div>
+        </div>
+        <div class="team-box">
+          <div class="img-social">
+            <div class="social">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <img src="images/team/team1.jpg" alt="" />
+          </div>
+
+          <div class="team-info">
+            <h3>bashir</h3>
+            <p>Developer</p>
+          </div>
+        </div>
+        <div class="team-box">
+          <div class="img-social">
+            <div class="social">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <img src="images/team/team1.jpg" alt="" />
+          </div>
+
+          <div class="team-info">
+            <h3>bashir</h3>
+            <p>Developer</p>
+          </div>
+        </div>
+        <div class="team-box">
+          <div class="img-social">
+            <div class="social">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <img src="images/team/team1.jpg" alt="" />
+          </div>
+
+          <div class="team-info">
+            <h3>bashir</h3>
+            <p>Developer</p>
+          </div>
+        </div>
+        <div class="team-box">
+          <div class="img-social">
+            <div class="social">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <img src="images/team/team1.jpg" alt="" />
+          </div>
+
+          <div class="team-info">
+            <h3>bashir</h3>
+            <p>Developer</p>
+          </div>
+        </div>
+        <div class="team-box">
+          <div class="img-social">
+            <div class="social">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <img src="images/team/team1.jpg" alt="" />
+          </div>
+
+          <div class="team-info">
+            <h3>bashir</h3>
+            <p>Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End team section -->
+
+  <!-- Start skills section -->
+  <section class="our-skills">
+    <h2 class="section-title">مهاراتي الشخصية</h2>
+    <p class="section-desc">اللغات التي اقنها</p>
+    <div class="container">
+      <div class="skills-info">
+
+        <div class="skill">
+          <div class="count">
+            <p>C#</p>
+            <p>90%</p>
+          </div>
+
+          <div class="progress">
+            <div class="prog">
+              <span style=" width: 90%;"></span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="count">
+            <p>Express</p>
+            <p>70%</p>
+          </div>
+
+          <div class="progress">
+            <div class="prog">
+              <span style=" width: 70%;"></span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="count">
+            <p>MongoDb</p>
+            <p>50%</p>
+          </div>
+
+          <div class="progress">
+            <div class="prog">
+              <span style=" width: 50%;"></span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="count">
+            <p>html</p>
+            <p>100%</p>
+          </div>
+
+          <div class="progress">
+            <div class="prog">
+              <span style=" width: 100%;"></span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="count">
+            <p>js</p>
+            <p>40%</p>
+          </div>
+
+          <div class="progress">
+            <div class="prog">
+              <span style=" width: 40%;"></span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="skills-img">
+        <img src="images/about-img.jpg" alt="">
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- End skills section -->
+  <!-- start pricing section -->
+  <section class="pricing-section">
+    <h2 class="section-title">خطط الاسعار</h2>
+    <p class="section-desc">اللغات التي اقنها</p>
+    <div class="container">
+      <div class="plan">
+        <h3 class="plan-title">الخطة الاحترافية</h3>
+        <img width="50px" src="images/svg/react-2.svg" alt="">
+        <div class="price">
+          <p>150$</p>
+          <p>سنويا</p>
+        </div>
+        <ul>
+          <li>ثلاث فيديوهات شهريا</li>
+          <li>ثلاث فيديوهات شهريا</li>
+          <li>ثلاث فيديوهات شهريا</li>
+          <li>ثلاث فيديوهات شهريا</li>
+          <li>ثلاث فيديوهات شهريا</li>
+        </ul>
+        <button class="plan-btn">اشترك الآن</button>
+      </div>
+      <div class="plan">
+        <h3 class="plan-title">الخطة الاحترافية</h3>
+        <img width="50px" src="images/svg/react-2.svg" alt="">
+        <div class="price">
+          <p>150$</p>
+          <p>سنويا</p>
+        </div>
+        <ul>
+          <li>ثلاث فيديوهات شهريا</li>
+          <li>ثلاث فيديوهات شهريا</li>
+          <li>ثلاث فيديوهات شهريا</li>
+          <li>ثلاث فيديوهات شهريا</li>
+          <li>ثلاث فيديوهات شهريا</li>
+        </ul>
+        <button class="plan-btn">اشترك الآن</button>
+      </div>
+      <div class="plan">
+        <h3 class="plan-title">الخطة الاحترافية</h3>
+        <img width="50px" src="images/svg/react-2.svg" alt="">
+        <div class="price">
+          <p>150$</p>
+          <p>سنويا</p>
+        </div>
+        <ul>
+          <li>ثلاث فيديوهات شهريا</li>
+          <li>ثلاث فيديوهات شهريا</li>
+          <li>ثلاث فيديوهات شهريا</li>
+          <li>ثلاث فيديوهات شهريا</li>
+          <li>ثلاث فيديوهات شهريا</li>
+        </ul>
+        <button class="plan-btn">اشترك الآن</button>
+      </div>
+      <div class="plan">
+        <h3 class="plan-title">الخطة الاحترافية</h3>
+        <img width="50px" src="images/svg/react-2.svg" alt="">
+        <div class="price">
+          <p>150$</p>
+          <p>سنويا</p>
+        </div>
+        <ul>
+          <li>ثلاث فيديوهات شهريا</li>
+          <li>ثلاث فيديوهات شهريا</li>
+          <li>ثلاث فيديوهات شهريا</li>
+          <li>ثلاث فيديوهات شهريا</li>
+          <li>ثلاث فيديوهات شهريا</li>
+        </ul>
+        <button class="plan-btn">اشترك الآن</button>
+      </div>
+
+    </div>
+  </section>
+  <!-- end pricing section -->
+
+  <!-- Start Testimonals Section -->
+  <section class="testimonials">
+    <h2 class="section-title">آراء العملاء الاكارم</h2>
+    <p class="section-desc">اللغات التي اقنها</p>
+
+    <div class="container">
+      <div class="testimonial">
+        <img src="images/testimonials/testi1.png" alt="">
+        <h3>خالد العلي</h3>
+        <p class="title-testimonial">مطور برمجيات</p>
+        <div class="stars">
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="emptty fa-regular fa-star"></i></span>
+          <span><i class="emptty fa-regular fa-star"></i></span>
+        </div>
+        <p class="review">أنا سعيد جدًا بتجربتي مع عالم التطوير التقنية، فقد كانت الخدمة ممتازة وتجاوزت توقعاتي.</p>
+      </div>
+
+      <div class="testimonial">
+        <img src="images/testimonials/testi1.png" alt="">
+        <h3>خالد العلي</h3>
+        <p class="title-testimonial">مطور برمجيات</p>
+        <div class="stars">
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="emptty fa-regular fa-star"></i></span>
+          <span><i class="emptty fa-regular fa-star"></i></span>
+        </div>
+        <p class="review">أنا سعيد جدًا بتجربتي مع عالم التطوير التقنية، فقد كانت الخدمة ممتازة وتجاوزت توقعاتي.</p>
+      </div>
+      <div class="testimonial">
+        <img src="images/testimonials/testi1.png" alt="">
+        <h3>خالد العلي</h3>
+        <p class="title-testimonial">مطور برمجيات</p>
+        <div class="stars">
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="emptty fa-regular fa-star"></i></span>
+          <span><i class="emptty fa-regular fa-star"></i></span>
+        </div>
+        <p class="review">أنا سعيد جدًا بتجربتي مع عالم التطوير التقنية، فقد كانت الخدمة ممتازة وتجاوزت توقعاتي.</p>
+      </div>
+      <div class="testimonial">
+        <img src="images/testimonials/testi1.png" alt="">
+        <h3>خالد العلي</h3>
+        <p class="title-testimonial">مطور برمجيات</p>
+        <div class="stars">
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="emptty fa-regular fa-star"></i></span>
+          <span><i class="emptty fa-regular fa-star"></i></span>
+        </div>
+        <p class="review">أنا سعيد جدًا بتجربتي مع عالم التطوير التقنية، فقد كانت الخدمة ممتازة وتجاوزت توقعاتي.</p>
+      </div>
+      <div class="testimonial">
+        <img src="images/testimonials/testi1.png" alt="">
+        <h3>خالد العلي</h3>
+        <p class="title-testimonial">مطور برمجيات</p>
+        <div class="stars">
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="emptty fa-regular fa-star"></i></span>
+          <span><i class="emptty fa-regular fa-star"></i></span>
+        </div>
+        <p class="review">أنا سعيد جدًا بتجربتي مع عالم التطوير التقنية، فقد كانت الخدمة ممتازة وتجاوزت توقعاتي.</p>
+      </div>
+      <div class="testimonial">
+        <img src="images/testimonials/testi1.png" alt="">
+        <h3>خالد العلي</h3>
+        <p class="title-testimonial">مطور برمجيات</p>
+        <div class="stars">
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="emptty fa-regular fa-star"></i></span>
+          <span><i class="emptty fa-regular fa-star"></i></span>
+        </div>
+        <p class="review">أنا سعيد جدًا بتجربتي مع عالم التطوير التقنية، فقد كانت الخدمة ممتازة وتجاوزت توقعاتي.</p>
+      </div>
+      <div class="testimonial">
+        <img src="images/testimonials/testi1.png" alt="">
+        <h3>خالد العلي</h3>
+        <p class="title-testimonial">مطور برمجيات</p>
+        <div class="stars">
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="emptty fa-regular fa-star"></i></span>
+          <span><i class="emptty fa-regular fa-star"></i></span>
+        </div>
+        <p class="review">أنا سعيد جدًا بتجربتي مع عالم التطوير التقنية، فقد كانت الخدمة ممتازة وتجاوزت توقعاتي.</p>
+      </div>
+      <div class="testimonial">
+        <img src="images/testimonials/testi1.png" alt="">
+        <h3>خالد العلي</h3>
+        <p class="title-testimonial">مطور برمجيات</p>
+        <div class="stars">
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="fill fa-solid fa-star"></i></span>
+          <span><i class="emptty fa-regular fa-star"></i></span>
+          <span><i class="emptty fa-regular fa-star"></i></span>
+        </div>
+        <p class="review">أنا سعيد جدًا بتجربتي مع عالم التطوير التقنية، فقد كانت الخدمة ممتازة وتجاوزت توقعاتي.</p>
+      </div>
+
+    </div>
+  </section>
+  <!-- End Testimonals Section -->
+
+
+  <!-- start footer Section -->
+  <footer>
+    <div class="container">
+      <div class="section">
+        <h2>نبذة عن الشركة</h2>
+        <p>
+          شركة عالم التطوير التقنية هي شركة متخصصة في تطوير البرمجيات والتكنولوجيا، تأسست في إدلب عام 2018 على يد مجموعة
+          من الكفاءات والخبرات في مجالات التكنولوجيا الحديثة. تقدم الشركة حلولاً متكاملة في تطوير البرمجيات، وتصميم
+          المواقع، وتطبيقات الهاتف المحمول، والاستشارات التقنية، والتدريب التقني.
+        </p>
+      </div>
+      <div class="section">
+        <h2>اهم الخدمات</h2>
+        <ul>
+          <li><a href="">تصميم وبرمجة مواقع الويب</a></li>
+          <li><a href="">تصميم وبرمجة تطبيقات الجوال</a></li>
+          <li><a href="">ادارة وبرمجة السيرفرات</a></li>
+          <li><a href="">التصميم الجرافيكي والمونتاج</a></li>
+          <li><a href="">التسويق الالكتروني</a></li>
+        </ul>
+      </div>
+      <div class="section">
+        <h2>اهم الكورسات</h2>
+        <ul>
+          <li><a href="">كورسات البرمجة</a></li>
+          <li><a href="">كورسات التسويق الالكتروني</a></li>
+          <li><a href="">كورسات التصميم الجرافيكي</a></li>
+          <li><a href="">كورسات تطبيقات غوغل المجانية</a></li>
+          <li><a href="">كورسات برمجة الاردوينو</a></li>
+        </ul>
+      </div>
+      <div class="section">
+        <h2>النشرة البريدية</h2>
+        <div class="later">
+          <form>
+            <input type="text" placeholder="الرجاء ادخال الاسم">
+            <input type="email" placeholder="الرجاء ادخال البريد الالكتروني">
+            <input type="submit" value="ارسال البيانات">
+          </form>
+        </div>
+      </div>
+    </div>
+    <hr class="hr-footer">
+    <div class="copy-write">
+      <p>كافة الحقوق محفوظة لمطور البرمجيات Bashir Al-Walid</p>
+    </div>
+  </footer>
+
+  <!-- End footer Section -->
+<a class="btn-whatsapp" href="https://wa.me/+963 968 410 795" target="_blank">
+  <i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+<script src="/js/chat.js"></script>
+<script src="/js/script.js"></script>
+
+</body>
+
+</html>
